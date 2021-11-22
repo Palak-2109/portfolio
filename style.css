@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Ubuntu:wght@300;400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body {
+  min-height: 100vh;
+}
+.main_sec {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url('banner3.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: aliceblue;
+  display: flex;
+}
+
+.text {
+  margin-top: 35vh;
+  margin-left: 7.2vw;
+}
+
+.part1 {
+  font-size: 5vh;
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  color: bisque;
+}
+.part2 {
+  font-size: 10vh;
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  color: bisque;
+  font-weight: 1000;
+}
+.part3 {
+  font-size: 6vh;
+  padding: 0;
+  margin: 0;
+  color: bisque;
+}
+.typed-text{
+    color:#DC143C;
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 700;
+}
+.first{
+    color: bisque;
+    font-size: 5vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+.second{
+    color: #DC143C;
+
+}
+.menu_items{
+    color: bisque;
+    font-weight: 700;
+    word-spacing: 200vw;
+}
+
+header {
+  z-index: 999;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+  font-family: 'Ubuntu', sans-serif;
+  transition: all 0.3s ease;
+}
+.transparent_header{
+    background-color: transparent;
+}
+.colored_header{
+    background-color: #DC143C;
+    color: bisque;
+    height: 10vh;
+}
+.portfolio {
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vh;
+  font-weight: 1000;
+}
+.menu {
+  width: 40vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2.5vh;
+}
+.about_page {
+  height: 200vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading1{
+    width: 100%;
+    font-size: 4vh;
+    font-weight: 800;
+}
+.block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.dabba{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+.fotu{
+    height: 32.5vw;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 2.5%;
+    /* border: 0.2vw solid black; */
+    box-shadow:0.3vw 0.3vw rgb(168, 167, 167);
+}
+.information{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin-right: 7vw;
+    margin-bottom: 4vh;
+}
+.heading{
+    font-size: 6vh;
+    font-weight: 700;
+}
+.about_page{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+.block2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.line 
+{
+    font-weight: 1000;
+}
+.abcd{
+    font-weight: bold;
+}
+.resume_btn{
+    height: 6vh;
+    width: 7vw;
+    border-radius: 10%;
+    font-size: 2.5vh;
+    color: bisque;
+    background-color: #DC143C;
+    border: none;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 7vh;
+    color: bisque;
+    font-weight: bold;
+}
+.linee{
+    font-size: 2vh;
+    color: bisque;
+}
+.box
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.box5 , .box2, .box3, .box4{
+    height: 42vh;
+    width: 18vw;
+    background-color: #222;
+    border-radius: 3%;
+}
+.box2:hover{
+    background-color: #DC143C;
+}
+.box3:hover{
+    background-color: #DC143C;
+}
+.box4:hover{
+    background-color: #DC143C;
+}
+.box5:hover{
+    background-color: #DC143C;
+}
+.part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gall{
+    height: 36vh;
+    width: 15vw;
+    object-fit: cover;
+}
+@keyframes polo{
+    from{height: 36vh;}
+    to{
+        height: 37.5vh;
+    }
+    from{
+        width: 15vw;
+    }
+    to{
+        width: 15.75vw;
+    }
+}
+.gall:hover{
+    animation-name: polo;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.Gallery{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.Skills{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main_part{
+    font-size: 6vh;
+    font-weight: 700;
+    text-decoration: dotted;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+.secpart{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 40vh;
+}
+.left{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+}
+.right{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* height: 30vh; */
+}
+.lin{
+    display: flex;
+}
+.lin11{
+    height: 0.7vh;
+    width: 80%;
+    background-color: #DC143C;
+}
+.lin21{
+    height: 0.7vh;
+    width: 20%;
+    background-color: rgb(189, 188, 188);
+}
+.lin12{
+    height: 0.7vh;
+    width: 60%;
+    background-color: #DC143C;
+}
+.lin22{
+    height: 0.7vh;
+    width: 40%;
+    background-color: rgb(189, 188, 188);
+}
+.lin13{
+    height: 0.7vh;
+    width: 40%;
+    background-color: #DC143C;
+}
+.lin23{
+    height: 0.7vh;
+    width: 60%;
+    background-color: rgb(189, 188, 188);
+}
+.lin14{
+    height: 0.7vh;
+    width: 60%;
+    background-color: #DC143C;
+}
+.lin24{
+    height: 0.7vh;
+    width: 40%;
+    background-color: rgb(189, 188, 188);
+}
+.lin15{
+    height: 0.7vh;
+    width: 60%;
+    background-color: #DC143C;
+}
+.lin25{
+    height: 0.7vh;
+    width: 40%;
+    background-color: rgb(189, 188, 188);
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+}
+.skill{
+    font-size: 2.8vh;
+    font-weight: bold;
+}
+.first_left{
+    font-size: 3.5vh;
+    font-weight: bold;
+    margin-bottom: 4vh;
+}
+.second_left{
+    font-size: 2.8svh;
+    margin-bottom: 4vh;
+}
+.read_more{
+    height: 6vh;
+    width: 10vw;
+    border-radius: 7%;
+    border: none;
+    font-size: 2.5vh;
+    background-color: #DC143C;
+    color: bisque;
+}
