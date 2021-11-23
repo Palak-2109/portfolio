@@ -136,6 +136,8 @@ header {
     border-radius: 2.5%;
     /* border: 0.2vw solid black; */
     box-shadow:0.3vw 0.3vw rgb(168, 167, 167);
+    /* box-shadow: 0 0 8px 8px #ccc; /* with blur shadow*/
+    /* box-shadow: 0 0 0 8px #ccc; without blur shadow */ 
 }
 .information{
     width: 50vw;
@@ -357,7 +359,100 @@ header {
     width: 10vw;
     border-radius: 7%;
     border: none;
-    font-size: 2.5vh;
+    font-size: 3vh;
     background-color: #DC143C;
     color: bisque;
+}
+.Work{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("bg_work (2).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cards{
+    display: grid;
+    height: 70vh;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.card1 {
+    /* height: 55vh; */
+    width: 24vw;
+    background-color: #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:2vw;
+    padding-bottom: 2vw;
+    border-radius: 3%;
+    margin-left:13vw;
+    margin-top: 10vh;
+}
+.card1:hover{
+    background-color: #DC143C;
+    cursor: pointer;
+}
+.card1:hover>.cont>a>img{
+    height: 21vh;
+    width: 21vw;
+}
+.card1:hover>.work1_name{
+    font-size: 5vh;
+}
+.card1 img{
+    height: 20vh;
+    width: 20vw;
+    object-fit: cover;
+    transition: width 0.2s, height 0.2s;
+    margin-bottom: 2vh;
+    
+}
+.card2 {
+    height: 50vh;
+    width: 25vw;
+    background-color: yellow;
+}
+.card3 {
+    height: 50vh;
+    width: 25vw;
+    background-color: yellow;
+}
+.heading_work{
+    font-size: 6.5vh;
+    color: #222;
+}
+.linn{
+    font-size: 2vh;
+    font-weight: bold;
+}
+.headingi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.content1{
+    display: flex;
+    text-align: center;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    font-size: 2.5vh;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.work1_name{
+    font-size: 4vh;
+    color: white;
+    transition: font-size 0.2s;
+}
+.btnn{
+    height: 4.5vh;
+    width: 10vw;
+    font-size: 3vh;
 }
