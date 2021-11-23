@@ -84,3 +84,16 @@ function erase1() {
 document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
   if(textArray.length) setTimeout(type1,newTextDelay1 + 250);
 });
+
+// var typed = new Typed(".typing", {
+//   strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
+//   typeSpeed: 100,
+//   backSpeed: 60,
+//   loop: true
+// });
+// var typed = new Typed(".typing-2", {
+//   strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
+//   typeSpeed: 100,
+//   backSpeed: 60,
+//   loop: true
+// });

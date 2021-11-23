@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Ubuntu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Poppins:wght@300&family=Ubuntu:wght@300;400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -250,11 +250,15 @@ header {
     background-color: black;
 }
 .Skills{
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    background: url("skill_bg.png");
+    z-index: -999;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .main_part{
     font-size: 6vh;
@@ -364,23 +368,22 @@ header {
     color: bisque;
 }
 .Work{
-    height: 95vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center;
     background: url("bg_work (2).png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: black;
 }
 .cards{
-    display: grid;
+    display: flex;
     height: 70vh;
     width: 100%;
-    flex-wrap: wrap;
 }
 .card1 {
-    /* height: 55vh; */
     width: 24vw;
     background-color: #555;
     display: flex;
@@ -395,6 +398,11 @@ header {
 .card1:hover{
     background-color: #DC143C;
     cursor: pointer;
+}
+.work1{
+    object-fit: cover;
+    height: 100vh;
+    width: 5vw;
 }
 .card1:hover>.cont>a>img{
     height: 21vh;
@@ -423,7 +431,7 @@ header {
 }
 .heading_work{
     font-size: 6.5vh;
-    color: #222;
+    color: bisque;
 }
 .linn{
     font-size: 2vh;
@@ -434,8 +442,11 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    color: bisque;
+    margin-top: 12vh;
 }
 .content1{
+    font-family: 'Poppins', sans-serif;
     display: flex;
     text-align: center;
     margin-left: 2.5vw;
@@ -443,6 +454,7 @@ header {
     font-size: 2.5vh;
     height: 20vh;
     justify-content: center;
+    line-height: 1.1;
     align-items: center;
     color: white;
 }
@@ -456,3 +468,247 @@ header {
     width: 10vw;
     font-size: 3vh;
 }
+
+
+.Work .carousel .card1{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.Work .carousel .card1:hover{
+    background: crimson;
+}
+.Work .carousel .card1 .connt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.Work .carousel .card1 .work1_name{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.Work .carousel .card1:hover .work1_name{
+    transform: scale(1.05);
+}
+.Work .carousel .card1:hover .connt{
+    transform: scale(1.05);
+}
+
+.Work .carousel .card1 img{
+    height: 20vh;
+    width: 10vw;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.Work .carousel .card1:hover img{
+    border-color: #222;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid crimson!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: crimson!important;
+}
+
+
+
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    color: #666;
+}
+.main_portion{
+    display: flex;
+    width: 100%;
+    padding-left: 7vw;
+    height: 50vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading2{
+    font-size: 6vh;
+    font-weight: bold;
+    margin-bottom: 9vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    color: black;font-family: 'Ubuntu', sans-serif;
+}
+.leftt{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+.name_info{
+    display: flex;
+    width: 40%;
+}
+.address_info{
+    display: flex;
+    width: 40%;
+}
+.email_info{
+    display: flex;
+    width: 40%;
+}
+.logo1{
+    width: 20%;
+    font-size: 4vh;
+    color: #DC143C;
+}
+.logo2{
+    width: 20%;
+    font-size: 4vh;
+    color: #DC143C;
+}
+.logo3{
+    width: 20%;
+    font-size: 4vh;
+    color: #DC143C;
+}
+.boxxx1{
+    width: 100%;
+    margin-bottom: 2vh;
+}
+.boxxx3{
+    width: 100%;
+    margin-bottom: 2vh;
+}
+.boxxx2{
+    width: 100%;
+    margin-bottom: 2vh;
+}
+.linkss{
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.one{
+    font-size: 3vh;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.two{
+    font-size: 3vh;
+}
+.naam{
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-bottom: 0.4vh;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.pata{
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-bottom: 0.4vh;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.email{
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-bottom: 0.4vh;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.iconss{
+    font-size: 5.2vh;
+    color: #DC143C;
+}
+.conttt{
+    margin-bottom: 4vh;
+    color: black;
+}
+.infoo{
+    margin-bottom: 3vh;
+}
+
+.rightt{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.send{
+    height: 4.5vh;
+    width: 6vw;
+    border-radius: 9%;
+    font-size: 2.5vh;
+    color: #DC143C;
+    border-color: #DC143C;
+}
+.message_me{
+    font-size: 3vh;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 3vh;
+}
+.user_name{
+    color: black;
+    font-size: 2.5vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+.blockk1{
+    margin-bottom: 2vh;
+}
+
+.user_email{
+    color: black;
+    font-size: 2.5vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+.blockk2{
+    margin-bottom: 2vh;
+}
+
+.message{
+    color: black;
+    font-size: 2.5vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+.blockk3{
+    margin-bottom: 6.5vh;
+}
+input{
+    font-size: 2.6vh;
+}
+
