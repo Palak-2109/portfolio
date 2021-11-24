@@ -35,3 +35,44 @@ $('.carousel').owlCarousel({
         }
     }
 });
+
+
+const menuBtn=document.querySelector('.menu_button');
+const menu=document.querySelector('.menu');
+const menu_items=document.querySelectorAll('.menu_items');
+const closeBtn=document.querySelector('.cross_button');
+menuBtn.addEventListener('click',()=>{
+    menu.classList.add('active');
+})
+closeBtn.addEventListener('click',()=>{
+    menu.classList.remove('active');
+})
+
+if(menu.classList.contains('active')==="true")
+{
+    console.log("YO")
+    const home=document.querySelector('#home');
+    const about=document.querySelector('#about');
+    const skill=document.querySelector('#skills');
+    const work=document.querySelector('#home');
+    const gallery=document.querySelector('#gallery');
+    const contact=document.querySelector('#contact');
+    home.addEventListener('click',()=>{
+        menu.classList.remove('active');
+    })
+    about.addEventListener('click',()=>{
+        menu.classList.remove('active');
+    })
+    skill.addEventListener('click',()=>{
+        menu.classList.remove('active');
+    })
+    work.addEventListener('click',()=>{
+        menu.classList.remove('active');
+    })
+    gallery.addEventListener('click',()=>{
+        menu.classList.remove('active');
+    })
+    contact.addEventListener('click',()=>{
+        menu.classList.remove('active');
+    })
+}

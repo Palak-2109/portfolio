@@ -1,0 +1,172 @@
+@media(max-width: 1250px)
+{
+    .menu{
+        position: fixed;
+        background-color: #222;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        width:30vw;
+        right: -100%;
+        top: 0;
+        height: 100vh;
+        font-size: 4vh;
+    }
+    .active{
+        right: 0;
+        transition: .1s ease-in;
+    }
+    .menu_items{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+    .buttun{
+        display: block;
+    }
+    .menu_button{
+        top: 4vh;
+        margin-right: 3vw;
+        font-size: 4vh;
+    }
+    .cross_button{
+        
+        position: absolute;
+        top: 4vh;
+        right: 3vw;
+        font-size: 4vh;
+    }
+    .fotu{
+        height: 35vw;
+        width: 25vw;
+    }
+    .heading1{
+        font-size: 5vh;
+    }
+    .information{
+        font-size: 3vh;
+    }
+    .resume_btn{
+        height: 7vh;
+        width: 8vw;
+        font-size: 3vh;
+    }
+    .first_left{
+        font-size: 3.8vh;
+    }
+    .second_left{
+        font-size: 3vh;
+    }
+    .skill{
+        font-size: 3vh;
+    }
+    .level{
+        font-size: 3vh;
+    }
+    .heading1{
+        font-size: 3.6vh;
+    }
+}
+
+@media(max-width:1050px)
+{
+    .resume_btn{
+        width: 10vw;
+    }
+    .read_more{
+        width: 12vw;
+    }
+}
+@media(max-width:1000px)
+{
+    .block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .About{
+        height: auto;
+    }
+    .fotu{
+        margin: 4vh;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .information{
+        width: 90%;
+        font-size: 2.5vh;
+        padding-left: 4vw;
+    }
+    .heading1{
+        width: 89%;
+    }
+    .resume_btn{
+        margin-bottom: 5vh;
+    }
+    .card1{
+        width: 28vw;
+    }
+    .box{
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    .Gallery{
+        height: 120vh;
+        padding-top: 3vh;
+    }
+}
+@media(max-width:870px)
+{
+    .resume_btn{
+        width:auto ;
+        height: 5vh;
+    }
+    .read_more{
+        width: auto;
+    }
+    .gall{
+        width: 25vw;
+    }
+    .part{
+        width: 29vw;
+        margin: 1vw;
+        
+    }
+    .card1{
+        width: 32vw;
+    }
+    .content1
+    {
+        padding-left: 0.5vw;
+        padding-right:0,5vw;
+    }
+    
+    .Work .carousel .card1 img{
+        width: 17vw;
+    }
+}
+@media(max-width:500px)
+{
+    .card1{
+        width: 40vw;
+    }
+    .content1{
+        font-size: 2vh;
+    }
+    .Skills{
+        height: 120vh;
+    }
+    .Work .carousel .card1 img{
+        width: 25vw;
+    }
+    .portfolio{
+        margin-left: 10vw;
+    }
+}
+
