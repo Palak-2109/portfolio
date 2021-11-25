@@ -27,7 +27,7 @@
     }
     .menu_button{
         top: 4vh;
-        margin-right: 3vw;
+        margin-right: 7vw;
         font-size: 4vh;
     }
     .cross_button{
@@ -77,6 +77,12 @@
     .read_more{
         width: 12vw;
     }
+    
+    .menu_button{
+        top: 4vh;
+        margin-right: 7vw;
+        font-size: 4vh;
+    }
 }
 @media(max-width:1000px)
 {
@@ -120,6 +126,11 @@
         height: 120vh;
         padding-top: 3vh;
     }
+    .menu_button{
+        top: 4vh;
+        margin-right: 7vw;
+        font-size: 4vh;
+    }
 }
 @media(max-width:870px)
 {
@@ -150,6 +161,11 @@
     .Work .carousel .card1 img{
         width: 17vw;
     }
+    .menu_button{
+        top: 4vh;
+        margin-right: 7vw;
+        font-size: 4vh;
+    }
 }
 @media(max-width:500px)
 {
@@ -167,6 +183,11 @@
     }
     .portfolio{
         margin-left: 10vw;
+    }
+    .menu_button{
+        top: 4vh;
+        margin-right: 7vw;
+        font-size: 4vh;
     }
 }
 

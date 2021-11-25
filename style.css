@@ -11,10 +11,11 @@ html {
   }
 body {
   min-height: 100vh;
+  margin: 0;
 }
 .main_sec {
   position: relative;
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   background: url('banner3.png') no-repeat;
   background-size: cover;
@@ -109,6 +110,7 @@ header {
     color: bisque;
     display: none;
     cursor: pointer;
+
 }
 
 
