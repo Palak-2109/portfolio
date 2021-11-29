@@ -122,10 +122,10 @@
         width: 80%;
         flex-wrap: wrap;
     }
-    .Gallery{
+    /* .Gallery{
         height: 120vh;
         padding-top: 3vh;
-    }
+    } */
     .menu_button{
         top: 4vh;
         margin-right: 7vw;
